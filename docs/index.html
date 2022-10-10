@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Template Wiki</title>
+  <link rel="shortcut icon" type="image/png" href="assets/logo_favicon.png"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="assets/vue.css">
+  <link rel="stylesheet" href="assets/darklight.min.css">
+  <link rel="stylesheet" href="assets/docsify-sidebar-collapse.min.css">
+  <link rel="stylesheet" href="assets/gitalk.css">
+
+
+  
+</head>
+<body>
+  <div id="app">Loading...</div>
+</body>
+<script>
+  window.$docsify = {
+    themeColor: '#007BE8',
+    name: 'Template Wiki',
+    repo: 'junxnone/twiki',
+    loadSidebar: true,
+    auto2top: true,
+    copyCode: {
+      buttonText : '复制',
+      errorText  : 'Error',
+      successText: '已复制'
+    },
+    search: {
+      maxAge: 86400000,
+      paths: 'auto',
+      placeholder: '搜索',
+      noData: '啥也没找到',
+      depth: 6
+    },
+    count:{
+      countable:true,
+      position: 'top',
+      float: 'left',
+      fontsize:'0.9em',
+      color:'rgb(255,0,0)',
+      language:'chinese'
+    },
+    toc: {
+      tocMaxLevel: 6,
+      target: 'h2, h3, h4, h5, h6'
+    },
+    darklightTheme: {
+            siteFont : "PT Sans",
+            defaultTheme : 'dark',
+            codeFontFamily : 'Roboto Mono, Monaco, courier, monospace',
+            bodyFontSize : '17px',
+            dark: {
+                accent: '#3427cd',
+                toogleBackground : '#ffffff',
+                background: '#00000',
+                textColor: '#ffffff',
+                codeTextColor : '#ffffff',
+                codeBackgroundColor : '#0e2233',
+                borderColor : '#ffffff',//'#0d2538',
+                blockQuoteColor : '#858585',
+                highlightColor : '#d22778',
+                sidebarSublink : '#ffffff',//'#b4b4b4',
+                codeTypeColor : '#ffffff',
+                coverBackground : 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
+                toogleImage : 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg)'
+            },
+            light: {
+                accent: '#1401f3',
+                toogleBackground : '#091a28',
+                background: '#ffffff',
+                textColor: '#000000',//'#34495e',
+                codeTextColor : '#525252',
+                codeBackgroundColor : '#f8f8f8',
+                borderColor : 'rgba(0, 0, 0, 0.07)',
+                blockQuoteColor : '#858585',
+                highlightColor : '#d22778',
+                sidebarSublink : '#000000',//'#b4b4b4',
+                codeTypeColor : '#091a28',
+                coverBackground : 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
+                toogleImage : 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
+            }
+        }
+  }
+
+  
+  </script>
+  <script src="assets/docsify.min.js"></script>
+  <script src="assets/docsify-copy-code.min.js"></script>
+  <script src="assets/search.min.js"></script>
+  <script src="assets/countable.js"></script>
+  <script src="assets/docsify-plugin-toc.min.js"></script>
+  <script src="assets/darklight.min.js"></script>
+  <script src="assets/docsify-sidebar-collapse.min.js"></script>
+  <script src="assets/wikilink.min.js"></script>
+  <script src="assets/docsify.gitalk.min.js"></script>
+  <script src="assets/gitalk.min.js"></script>
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@1.4.4/dist/docsify-katex.js"></script>
+  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@1.4.4/dist/docsify-katex.js"></script> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"/>
+  
+  <!pdf plugin>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script> 
+  <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
+  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+  <script>mermaid.initialize({ startOnLoad: true });</script>
+
+  <script>
+  
+  const gitalk = new Gitalk({
+    clientID: '91b46a4472ca8bff4fe6',
+    clientSecret: '4f97a59f21b6fc23798d6c3f2e0997fa61845e9d',
+    repo: 'gitalk_comment',
+    owner: 'junxnone',
+    admin: ['junxnone'],
+    id: location.href.split(/\/|\?/)[3] + '-' + location.href.split(/\/|\?/)[5],
+    // facebook-like distraction free mode
+    distractionFreeMode: true
+  })
+  window.onhashchange = function(event){
+    if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+      location.reload()
+    }
+  }
+  </script>
+</html>
