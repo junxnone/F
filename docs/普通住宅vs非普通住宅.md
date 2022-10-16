@@ -2,10 +2,12 @@
 Title | 普通住宅vs非普通住宅
 -- | --
 Created @ | `2022-10-16T06:28:03Z`
-Last Modify @| `2022-10-16T06:32:26Z`
+Last Modify @| `2022-10-16T06:39:39Z`
 Edit @| [here](https://github.com/junxnone/F/issues/14)
 
 ---
+> 2014年指定, 2019年延续到2024年
+
 - 增值税及附加税**不免征**
 
 ## 普通住宅定义条件
@@ -21,5 +23,7 @@ Edit @| [here](https://github.com/junxnone/F/issues/14)
 
 
 ---
+
 ![image](https://user-images.githubusercontent.com/2216970/196021699-836b2693-0575-4fb1-9a65-1e7ec72ed929.png)
+![image](https://user-images.githubusercontent.com/2216970/196021852-ee4288c0-5620-40cc-9f35-199292e8c1b6.png)
 
