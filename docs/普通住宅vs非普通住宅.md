@@ -2,11 +2,10 @@
 Title | 普通住宅vs非普通住宅
 -- | --
 Created @ | `2022-10-16T06:28:03Z`
-Last Modify @| `2022-10-16T06:28:03Z`
+Last Modify @| `2022-10-16T06:32:26Z`
 Edit @| [here](https://github.com/junxnone/F/issues/14)
 
 ---
-
 - 增值税及附加税**不免征**
 
 ## 普通住宅定义条件
@@ -19,3 +18,8 @@ Edit @| [here](https://github.com/junxnone/F/issues/14)
   - 内环线与外环线之间的低于310万元/套
   - 外环线以外的低于230万元/套
 - **同时满足上述三个条件**
+
+
+---
+![image](https://user-images.githubusercontent.com/2216970/196021699-836b2693-0575-4fb1-9a65-1e7ec72ed929.png)
+
