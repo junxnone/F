@@ -19,3 +19,9 @@ jobs:
           body: ${{ github.event.issue.body }}
           number: ${{ github.event.issue.number }}
           actor: ${{ github.actor }}
+      - uses: junxnone/autosidebar@main
+        with:
+          push_branch: "master"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          actor: ${{ github.actor }}
+          docs_path: "docs"
