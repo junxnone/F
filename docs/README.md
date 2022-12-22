@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Last Modify @ | `2022-10-10T02:55:10Z`
+Last Modify @ | `2022-12-22T02:35:18Z`
 Edit @ | [here](https://github.com/junxnone/F/issues/2)
 
 ---
@@ -9,9 +9,8 @@ Edit @ | [here](https://github.com/junxnone/F/issues/2)
 
 # F
 
-<kbd>[![](https://img.shields.io/badge/%2B-Create%20New%20Item-brightgreen)](https://github.com/junxnone/F/issues/new)</kbd> | <kbd>[![](https://img.shields.io/badge/%2B-Edit%20Sidebar-brightgreen)](https://github.com/junxnone/F/issues/1)</kbd>
--- | --
-
-
 [Index](_sidebar.md ':include')
+
+
+[markmap show](https://junxnone.github.io/F/markmap.html?md=https://junxnone.github.io/F/_sidebar.md ':include :type=iframe width=100% height=400px')
 
