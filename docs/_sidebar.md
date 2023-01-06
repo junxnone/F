@@ -44,4 +44,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.01.05<sub>Junx16</sub></kbd>
+<kbd>2023.01.06<sub>Junx16</sub></kbd>
