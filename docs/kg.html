@@ -33,6 +33,7 @@
       .nodeAutoColorBy('group')
       .linkAutoColorBy('value')
       .linkWidth(2)
+      .showNavInfo(false)
       .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
           sprite.material.depthWrite = false; // make sprite background transparent
