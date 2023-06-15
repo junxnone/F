@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Updated @ | `2023-06-15T16:25:19Z`
+Updated @ | `2023-06-15T17:26:21Z`
 Edit @ | [here](https://github.com/junxnone/F/issues/2)
 
 ---
@@ -9,7 +9,7 @@ Edit @ | [here](https://github.com/junxnone/F/issues/2)
 
 # `房子`
 
-[3DKG](https://junxnone.github.io/3d-force-graph/example/html-nodes/ ':include :type=iframe width=100% height=600px')
+[3DKG](https://junxnone.github.io/F/kg ':include :type=iframe width=100% height=600px')
 
 
 [Index](_sidebar.md ':include')
