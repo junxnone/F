@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: junxnone/autosidebar@main
+      - uses: junxnone/autosidebar@kg
         with:
           push_branch: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
