@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Updated @ | `2023-06-15T17:26:21Z`
+Updated @ | `2023-06-17T12:04:50Z`
 Edit @ | [here](https://github.com/junxnone/F/issues/2)
 
 ---
@@ -9,11 +9,13 @@ Edit @ | [here](https://github.com/junxnone/F/issues/2)
 
 # `房子`
 
-[3DKG](https://junxnone.github.io/F/kg ':include :type=iframe width=100% height=600px')
+- [Mindmap - Markmap](https://junxnone.github.io/F/markmap.html?md=https://junxnone.github.io/F/_sidebar.md)
+- [3D Knowledge Graph](https://junxnone.github.io/F/kg)
 
+---
 
 [Index](_sidebar.md ':include')
 
+[kg](https://junxnone.github.io/F/kg ':include :type=iframe width=100% height=800px')
 
-[markmap show](https://junxnone.github.io/F/markmap.html?md=https://junxnone.github.io/F/_sidebar.md ':include :type=iframe width=100% height=400px')
 
